@@ -15,6 +15,7 @@ nav {
     background-color: rgb(22, 25, 27);
     text-align: center;
     list-style: none;
+    z-index: 10;
 }
 
 nav li {
@@ -25,26 +26,30 @@ nav li {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+    text-decoration: none;
 }
 
 nav a:link {
     color: whitesmoke;
+    text-decoration: none;
 }
 
 nav a:visited {
-    color: rgb(193, 164, 212);
+    color: whitesmoke
 }
 
 nav a:hover {
-    color: slategray;
+    color: whitesmoke
 }
 
 header {
-    position: relative;
+    background-image: url("../Images/Goose-lightyear.jpg");
+    background-size: cover;
     background-color: rgb(119, 32, 141);
+    background-position: center;
     color: whitesmoke;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     background-blend-mode: multiply;
     text-align: center;
 }

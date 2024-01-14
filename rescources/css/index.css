@@ -11,6 +11,7 @@ nav {
     background-color: rgb(22, 25, 27);
     text-align: center;
     list-style: none;
+    z-index: 10;
 }
 
 nav li {
@@ -21,6 +22,20 @@ nav li {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: whitesmoke
+}
+
+nav a:hover {
+    color: whitesmoke
 }
 
 main {
@@ -28,6 +43,7 @@ main {
     top: 58px;
     margin: auto;
     background-color: lemonchiffon;
+    text-align: center;
 }
 
 main p {
@@ -35,7 +51,8 @@ main p {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 10%;
-    text-align: justify;
+    margin-right: 10%;
+    text-align: left;
 }
 
 .page-header {
@@ -48,6 +65,35 @@ main p {
     padding-bottom: 300px;
     background-blend-mode: multiply;
     text-align: center;
+}
+
+.favlist {
+    display: block;
+    border: 2px solid rgb(199, 32, 141);
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h3 {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main ul {
+    display: block;
+    padding: 0 50px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: square;
+    font-size: large;
+    list-style-position: inside;
+    text-align: left;
 }
 
 footer {
