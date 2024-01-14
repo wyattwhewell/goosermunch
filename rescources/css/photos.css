@@ -69,6 +69,8 @@ main {
     margin: 0 auto;
     text-align: center;
     height: 1200px;
+    position: relative;
+    top: 80px;
 }
 
 img {
