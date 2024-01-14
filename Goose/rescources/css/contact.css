@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(22, 25, 27);
+    text-align: center;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+nav a:link {
+    color: whitesmoke;
+}
+
+nav a:visited {
+    color: rgb(193, 164, 212);
+}
+
+nav a:hover {
+    color: slategray;
+}
+
+header {
+    position: relative;
+    background-color: rgb(119, 32, 141);
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    top: 58px;
+    margin: auto;
+}
+
+main p {
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: justify;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(22, 25, 27);
+    text-align: right;
+    font-size: small;
+    color: whitesmoke;
+}

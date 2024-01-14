@@ -1,0 +1,63 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(22, 25, 27);
+    text-align: center;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+main {
+    position: relative;
+    top: 58px;
+    margin: auto;
+    background-color: lemonchiffon;
+}
+
+main p {
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.page-header {
+    background-image: url("../Images/Goose-lightyear.jpg");
+    background-size: cover;
+    background-color: rgb(119, 32, 141);
+    background-position: center;
+    color: whitesmoke;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgb(22, 25, 27);
+    text-align: right;
+    font-size: small;
+    color: whitesmoke;
+
+}
